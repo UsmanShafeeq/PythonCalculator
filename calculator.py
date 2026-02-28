@@ -7,6 +7,12 @@ def subtract(a, b):
     return a - b
 
 
+def sqrt(a):
+    if a < 0:
+        return "Error! Negative number."
+    return math.sqrt(a)
+
+
 def multiply(a, b):
     return a * b
 
@@ -22,3 +28,4 @@ if __name__ == "__main__":
     print("Subtract: ", subtract(10, 5))
     print("Multiply: ", multiply(10, 5))
     print("Divide: ", divide(10, 5))
+    print("Square Root: ", sqrt(16))
